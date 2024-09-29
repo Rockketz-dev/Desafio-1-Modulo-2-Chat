@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #1b1f21;
+}
+
+em {
+  font-weight: 900;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Barra Chats */
+aside {
+  width: 20%;
+  border-right: 1px solid #e8ebe4;
+}
+
+/* Nav Usuario */
+.usuario {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  border-bottom: 1px solid #e8ebe4;
+}
+
+.usuario img {
+  width: 6vh;
+  border-radius: 50%;
+  border: 2px solid #d4dcff;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user .nombre {
+  padding-left: 1rem;
+}
+
+.nombre h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.nombre p {
+  font-family: "open sans", sans-serif;
+  font-size: 1rem;
+  color: #bec1bb;
+}
+
+.icon ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.icon li {
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  color: #828485;
+}
+
+/* Boton */
+.boton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  border-bottom: 1px solid #e8ebe4;
+}
+
+.boton button {
+  background-color: #a491d2;
+  border: 0;
+  color: #fff;
+  font-family: "open sans", helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1.3rem;
+  padding: 1rem 4rem 1rem;
+}
+
+.boton button:hover {
+  background-color: #d4dcff;
+  border: 0;
+  color: #a491d2;
+}
+
+/* Usuarios */
+.usr {
+  display: flex;
+  align-content: center;
+  justify-content: start;
+  height: 5.5vh;
+  border-bottom: 1px solid #e8ebe4;
+  padding-top: 1.2rem;
+  padding-left: 4rem;
+  padding-bottom: 1.2rem;
+  font-family: "open sans", sans-serif;
+}
+
+.usr img {
+  width: 3.5rem;
+  border-radius: 50%;
+  border: 2px solid #d4dcff;
+}
+
+.usr .text-usr {
+  padding-left: 1.2rem;
+}
+
+.usr .text-usr h3 {
+  font-weight: 600;
+}
+
+/* Chat */
+main {
+  display: flex;
+  width: 80%;
+}
+
+.chat {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+main .texto {
+  padding-top: 1rem;
+}
+
+main .texto h1 {
+  font-family: "open sans", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+main .texto p {
+  font-family: open sans;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+main img {
+  width: 25rem;
+}
